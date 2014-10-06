@@ -5,38 +5,68 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
   </head>
-  <body ng-app="yoTatumimApp">
+  <body class="container" ng-app="yoTatumimApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">yoTatumim</h3>
+
+
+
+
+
+
+    <script type="text/javasript">
+        $(document).ready(function() {
+          var menu = $('#navigation-menu');
+          var menuToggle = $('#js-mobile-menu');
+          var signUp = $('.sign-up');
+
+          $(menuToggle).on('click', function(e) {
+            e.preventDefault();
+            menu.slideToggle(function(){
+              if(menu.is(':hidden')) {
+                menu.removeAttr('style');
+              }
+            });
+          });
+
+          // underline under the active nav item
+          $(".nav .nav-link").click(function() {
+            $(".nav .nav-link").each(function() {
+              $(this).removeClass("active-nav-item");
+            });
+            $(this).addClass("active-nav-item");
+            $(".nav .more").removeClass("active-nav-item");
+          });
+        });
+    </script>
+
+
+
+    <header class="navigation">
+      <div class="navigation-wrapper">
+        <h1 class="logo">tatum.im<!--<a href="#"><img class="round" src="images/logo.jpeg" alt="tatum.im" /></a>--></h1>
+        <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+        <div class="nav">
+          <ul id="navigation-menu">
+            <li class="nav-link"><a ng-href="#">Home</a></li>
+            <li class="nav-link"><a ng-href="#/about">About</a></li>
+          </ul>
+        </div>
       </div>
+    </header>
 
-      <div ng-view=""></div>
 
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div>
-    </div>
 
+
+    <section ng-view=""></section>
+
+    <footer>
+      <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+    </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>

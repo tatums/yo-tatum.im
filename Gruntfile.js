@@ -77,6 +77,7 @@ module.exports = function (grunt) {
         options: {
           loadPath: [
             '<%= yeoman.app %>/../bower_components/bourbon/dist',
+            '<%= yeoman.app %>/../bower_components/bitters/app/assets/stylesheets',
             '<%= yeoman.app %>/../bower_components/neat/app/assets/stylesheets'
           ]
         }
