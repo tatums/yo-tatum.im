@@ -1,11 +1,15 @@
-//$visual-grid: true;
-//$visual-grid-opacity: 0.5;
+$visual-grid: true;
+$visual-grid-opacity: 0.5;
 
 @import 'bourbon';
 @import "base";
 @import "grid-settings";
 @import 'neat';
+
+//layout
 @import 'layout';
+//pages
+@import 'home';
 
 
 $dark-gray: white;
@@ -58,7 +62,7 @@ header.navigation {
   .navigation-menu-button {
     color: $navigation-color;
     display: block;
-    float: right;
+    //float: right;
     font-family: $sans-serif;
     font-weight: 700;
     line-height: $navigation-height;
@@ -76,12 +80,11 @@ header.navigation {
   }
 
   // Nav menu
-
   .nav {
     z-index: 9999999;
     float: none;
     @include media ($horizontal-bar-mode) {
-      float: left;
+      float: right;
     }
   }
 
@@ -103,7 +106,6 @@ header.navigation {
   }
 
   // The nav items
-
   ul li.nav-link {
     background: $navigation-background;
     display: block;
@@ -143,7 +145,6 @@ header.navigation {
   }
 
   // Sub menus
-
   li.more.nav-link {
     padding-right: 0;
 
@@ -257,7 +258,6 @@ header.navigation {
   }
 
   // Elements on the far right
-
   .navigation-tools {
     @include clearfix;
     display: block;
