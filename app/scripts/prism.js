@@ -553,7 +553,7 @@ Prism.languages.insertBefore('bash', 'comment', {
 	'important': /(^#!\s*\/bin\/bash)|(^#!\s*\/bin\/sh)/g
 });
 ;
-Prism.languages.sql= { 
+Prism.languages.sql= {
 	'comment': {
 		pattern: /(^|[^\\])(\/\*[\w\W]*?\*\/|((--)|(\/\/)|#).*?(\r?\n|$))/g,
 		lookbehind: true
