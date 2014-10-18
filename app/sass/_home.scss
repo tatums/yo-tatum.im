@@ -1,3 +1,31 @@
+body{
+  background-color: whitesmoke;
+}
+
+.logo{
+padding: 0 1em;
+}
+
+.logo{
+margin-left:1em;
+margin-top:0.5em;
+}
+article{
+  background-color: white;
+  margin:1em 0;
+  padding: 1em;
+  border-bottom: 1px solid #e5e5e5;
+}
+article h1{
+  font-size:1.8em
+}
+article header{
+  border-bottom: 1px solid #e5e5e5;
+
+}
+div.article-body{
+
+}
 
 .intro-text {
   $intro-text-width: 60%;

@@ -226,42 +226,6 @@ input[type="submit"] {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body:before {
-  content: '';
-  display: inline-block;
-  background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100.0%, transparent 100.0%);
-  background-image: -webkit-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100.0%, transparent 100.0%);
-  background-image: -moz-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100.0%, transparent 100.0%);
-  background-image: -ms-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100.0%, transparent 100.0%);
-  background-image: -o-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100.0%, transparent 100.0%);
-  background-image: linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100.0%, transparent 100.0%);
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.5;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  pointer-events: none;
-  z-index: -1; }
-  @media screen and (min-width: 40em) {
-    body:before {
-      background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #EEE 0, #EEE 19.43277%, transparent 19.43277%, transparent 26.85574%, #EEE 26.85574%, #EEE 46.28851%, transparent 46.28851%, transparent 53.71149%, #EEE 53.71149%, #EEE 73.14426%, transparent 73.14426%, transparent 80.56723%, #EEE 80.56723%, #EEE 100%, transparent 100%);
-      background-image: -webkit-linear-gradient(left, transparent 0, #EEE 0, #EEE 19.43277%, transparent 19.43277%, transparent 26.85574%, #EEE 26.85574%, #EEE 46.28851%, transparent 46.28851%, transparent 53.71149%, #EEE 53.71149%, #EEE 73.14426%, transparent 73.14426%, transparent 80.56723%, #EEE 80.56723%, #EEE 100%, transparent 100%);
-      background-image: -moz-linear-gradient(left, transparent 0, #EEE 0, #EEE 19.43277%, transparent 19.43277%, transparent 26.85574%, #EEE 26.85574%, #EEE 46.28851%, transparent 46.28851%, transparent 53.71149%, #EEE 53.71149%, #EEE 73.14426%, transparent 73.14426%, transparent 80.56723%, #EEE 80.56723%, #EEE 100%, transparent 100%);
-      background-image: -ms-linear-gradient(left, transparent 0, #EEE 0, #EEE 19.43277%, transparent 19.43277%, transparent 26.85574%, #EEE 26.85574%, #EEE 46.28851%, transparent 46.28851%, transparent 53.71149%, #EEE 53.71149%, #EEE 73.14426%, transparent 73.14426%, transparent 80.56723%, #EEE 80.56723%, #EEE 100%, transparent 100%);
-      background-image: -o-linear-gradient(left, transparent 0, #EEE 0, #EEE 19.43277%, transparent 19.43277%, transparent 26.85574%, #EEE 26.85574%, #EEE 46.28851%, transparent 46.28851%, transparent 53.71149%, #EEE 53.71149%, #EEE 73.14426%, transparent 73.14426%, transparent 80.56723%, #EEE 80.56723%, #EEE 100%, transparent 100%);
-      background-image: linear-gradient(left, transparent 0, #EEE 0, #EEE 19.43277%, transparent 19.43277%, transparent 26.85574%, #EEE 26.85574%, #EEE 46.28851%, transparent 46.28851%, transparent 53.71149%, #EEE 53.71149%, #EEE 73.14426%, transparent 73.14426%, transparent 80.56723%, #EEE 80.56723%, #EEE 100%, transparent 100%); } }
-  @media screen and (min-width: 53.75em) {
-    body:before {
-      background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #EEE 0, #EEE 9.36867%, transparent 9.36867%, transparent 12.94733%, #EEE 12.94733%, #EEE 22.316%, transparent 22.316%, transparent 25.89467%, #EEE 25.89467%, #EEE 35.26334%, transparent 35.26334%, transparent 38.842%, #EEE 38.842%, #EEE 48.21067%, transparent 48.21067%, transparent 51.78933%, #EEE 51.78933%, #EEE 61.158%, transparent 61.158%, transparent 64.73666%, #EEE 64.73666%, #EEE 74.10533%, transparent 74.10533%, transparent 77.684%, #EEE 77.684%, #EEE 87.05267%, transparent 87.05267%, transparent 90.63133%, #EEE 90.63133%, #EEE 100.0%, transparent 100.0%);
-      background-image: -webkit-linear-gradient(left, transparent 0, #EEE 0, #EEE 9.36867%, transparent 9.36867%, transparent 12.94733%, #EEE 12.94733%, #EEE 22.316%, transparent 22.316%, transparent 25.89467%, #EEE 25.89467%, #EEE 35.26334%, transparent 35.26334%, transparent 38.842%, #EEE 38.842%, #EEE 48.21067%, transparent 48.21067%, transparent 51.78933%, #EEE 51.78933%, #EEE 61.158%, transparent 61.158%, transparent 64.73666%, #EEE 64.73666%, #EEE 74.10533%, transparent 74.10533%, transparent 77.684%, #EEE 77.684%, #EEE 87.05267%, transparent 87.05267%, transparent 90.63133%, #EEE 90.63133%, #EEE 100.0%, transparent 100.0%);
-      background-image: -moz-linear-gradient(left, transparent 0, #EEE 0, #EEE 9.36867%, transparent 9.36867%, transparent 12.94733%, #EEE 12.94733%, #EEE 22.316%, transparent 22.316%, transparent 25.89467%, #EEE 25.89467%, #EEE 35.26334%, transparent 35.26334%, transparent 38.842%, #EEE 38.842%, #EEE 48.21067%, transparent 48.21067%, transparent 51.78933%, #EEE 51.78933%, #EEE 61.158%, transparent 61.158%, transparent 64.73666%, #EEE 64.73666%, #EEE 74.10533%, transparent 74.10533%, transparent 77.684%, #EEE 77.684%, #EEE 87.05267%, transparent 87.05267%, transparent 90.63133%, #EEE 90.63133%, #EEE 100.0%, transparent 100.0%);
-      background-image: -ms-linear-gradient(left, transparent 0, #EEE 0, #EEE 9.36867%, transparent 9.36867%, transparent 12.94733%, #EEE 12.94733%, #EEE 22.316%, transparent 22.316%, transparent 25.89467%, #EEE 25.89467%, #EEE 35.26334%, transparent 35.26334%, transparent 38.842%, #EEE 38.842%, #EEE 48.21067%, transparent 48.21067%, transparent 51.78933%, #EEE 51.78933%, #EEE 61.158%, transparent 61.158%, transparent 64.73666%, #EEE 64.73666%, #EEE 74.10533%, transparent 74.10533%, transparent 77.684%, #EEE 77.684%, #EEE 87.05267%, transparent 87.05267%, transparent 90.63133%, #EEE 90.63133%, #EEE 100.0%, transparent 100.0%);
-      background-image: -o-linear-gradient(left, transparent 0, #EEE 0, #EEE 9.36867%, transparent 9.36867%, transparent 12.94733%, #EEE 12.94733%, #EEE 22.316%, transparent 22.316%, transparent 25.89467%, #EEE 25.89467%, #EEE 35.26334%, transparent 35.26334%, transparent 38.842%, #EEE 38.842%, #EEE 48.21067%, transparent 48.21067%, transparent 51.78933%, #EEE 51.78933%, #EEE 61.158%, transparent 61.158%, transparent 64.73666%, #EEE 64.73666%, #EEE 74.10533%, transparent 74.10533%, transparent 77.684%, #EEE 77.684%, #EEE 87.05267%, transparent 87.05267%, transparent 90.63133%, #EEE 90.63133%, #EEE 100.0%, transparent 100.0%);
-      background-image: linear-gradient(left, transparent 0, #EEE 0, #EEE 9.36867%, transparent 9.36867%, transparent 12.94733%, #EEE 12.94733%, #EEE 22.316%, transparent 22.316%, transparent 25.89467%, #EEE 25.89467%, #EEE 35.26334%, transparent 35.26334%, transparent 38.842%, #EEE 38.842%, #EEE 48.21067%, transparent 48.21067%, transparent 51.78933%, #EEE 51.78933%, #EEE 61.158%, transparent 61.158%, transparent 64.73666%, #EEE 64.73666%, #EEE 74.10533%, transparent 74.10533%, transparent 77.684%, #EEE 77.684%, #EEE 87.05267%, transparent 87.05267%, transparent 90.63133%, #EEE 90.63133%, #EEE 100.0%, transparent 100.0%); } }
-
 .container {
   max-width: 68em;
   margin-left: auto;
@@ -270,6 +234,28 @@ body:before {
     content: "";
     display: table;
     clear: both; }
+
+body {
+  background-color: whitesmoke; }
+
+.logo {
+  padding: 0 1em; }
+
+.logo {
+  margin-left: 1em;
+  margin-top: 0.5em; }
+
+article {
+  background-color: white;
+  margin: 1em 0;
+  padding: 1em;
+  border-bottom: 1px solid #e5e5e5; }
+
+article h1 {
+  font-size: 1.8em; }
+
+article header {
+  border-bottom: 1px solid #e5e5e5; }
 
 .intro-text {
   margin-bottom: 5em;
@@ -341,8 +327,7 @@ header.navigation {
       clear: both; }
   header.navigation .logo {
     float: left;
-    max-height: 60px;
-    padding-right: 2em; }
+    max-height: 60px; }
     header.navigation .logo img {
       max-height: 60px;
       padding: .8em 0; }
@@ -500,112 +485,6 @@ header.navigation {
         background: transparent;
         float: right;
         clear: none; } }
-  header.navigation a.sign-up {
-    margin-top: 1.2em;
-    float: right;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    display: inline;
-    background: #477DCA;
-    border-radius: 3px;
-    color: white;
-    font-size: .8em;
-    font-weight: 800;
-    text-transform: uppercase;
-    padding: .4em .5em; }
-    @media screen and (min-width: 53.75em) {
-      header.navigation a.sign-up {
-        padding: .5em 1em; } }
-    header.navigation a.sign-up:hover {
-      background: #6f99d5; }
-  header.navigation .search-bar {
-    padding: .85em .6em;
-    float: left; }
-    header.navigation .search-bar .search-and-submit {
-      position: relative; }
-      header.navigation .search-bar .search-and-submit input[type=search] {
-        background: white;
-        border: 1px solid #f2f2f2;
-        padding: .6em .8em;
-        font-size: .9em;
-        font-style: italic;
-        color: rgba(255, 0, 0, 0.7);
-        border-radius: 6px;
-        margin: 0; }
-        @media screen and (min-width: 53.75em) {
-          header.navigation .search-bar .search-and-submit input[type=search] {
-            width: 100%; } }
-      header.navigation .search-bar .search-and-submit button[type=submit] {
-        border: 1px solid #dbdbdb;
-        border-radius: 3px;
-        box-shadow: inset 0 1px 0 0 white;
-        color: #333333;
-        display: inline-block;
-        font-size: inherit;
-        font-weight: bold;
-        background-color: white;
-        background-image: -webkit-linear-gradient(white, #e3e3e3);
-        background-image: linear-gradient(white, #e3e3e3);
-        padding: 7px 18px;
-        text-decoration: none;
-        text-shadow: 0 1px 0 white;
-        background-clip: padding-box;
-        border: 1px solid #dfd8d8;
-        border-radius: 3px;
-        box-shadow: inset 0 1px 0 0 white;
-        color: #333333;
-        display: inline-block;
-        font-size: inherit;
-        font-weight: bold;
-        background-color: white;
-        background-image: -webkit-linear-gradient(white, #e5e0e0);
-        background-image: linear-gradient(white, #e5e0e0);
-        padding: 7px 18px;
-        text-decoration: none;
-        text-shadow: 0 1px 0 white;
-        background-clip: padding-box;
-        position: absolute;
-        top: 0.3em;
-        right: 0.3em;
-        bottom: 0.3em;
-        left: auto;
-        outline: none;
-        padding: 0 15px; }
-        header.navigation .search-bar .search-and-submit button[type=submit]:hover:not(:disabled) {
-          box-shadow: inset 0 1px 0 0 white;
-          cursor: pointer;
-          background-color: #f2f2f2;
-          background-image: -webkit-linear-gradient(#f2f2f2, #dbdbdb);
-          background-image: linear-gradient(#f2f2f2, #dbdbdb); }
-        header.navigation .search-bar .search-and-submit button[type=submit]:active:not(:disabled), header.navigation .search-bar .search-and-submit button[type=submit]:focus:not(:disabled) {
-          border: 1px solid #dbdbdb;
-          box-shadow: inset 0 0 8px 4px #d4d4d4, inset 0 0 8px 4px #d4d4d4; }
-        header.navigation .search-bar .search-and-submit button[type=submit]:hover:not(:disabled) {
-          box-shadow: inset 0 1px 0 0 white;
-          cursor: pointer;
-          background-color: #f2f2f2;
-          background-image: -webkit-linear-gradient(#f2f2f2, #ded8d8);
-          background-image: linear-gradient(#f2f2f2, #ded8d8); }
-        header.navigation .search-bar .search-and-submit button[type=submit]:active:not(:disabled), header.navigation .search-bar .search-and-submit button[type=submit]:focus:not(:disabled) {
-          border: 1px solid #dfd8d8;
-          box-shadow: inset 0 0 8px 4px #d7d1d1, inset 0 0 8px 4px #d7d1d1; }
-        header.navigation .search-bar .search-and-submit button[type=submit]:disabled {
-          opacity: 0.5;
-          cursor: not-allowed; }
-        header.navigation .search-bar .search-and-submit button[type=submit] img {
-          height: 12px;
-          opacity: .7; }
-    @media screen and (min-width: 53.75em) {
-      header.navigation .search-bar {
-        width: 16em;
-        position: relative;
-        display: inline-block; }
-        header.navigation .search-bar input {
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          display: block; } }
 
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -625,5 +504,11 @@ section {
   -moz-background-clip: padding;
   background-clip: padding-box;
   box-shadow: 2px 2px 2px gray; }
+
+.logo {
+  color: white;
+  background: -webkit-linear-gradient(red, red) left repeat;
+  background: linear-gradient(red, red) left repeat;
+  padding: 0 0.2em; }
 
 /*# sourceMappingURL=main.css.map */
