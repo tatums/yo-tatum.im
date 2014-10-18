@@ -1,9 +1,52 @@
 <div>
-  <p>
-Aesthetic hoodie plaid, slow-carb keytar irony Odd Future before they sold out deep v Echo Park umami typewriter shabby chic Tonx fashion axe. Kale chips aesthetic seitan tattooed pickled paleo, Pitchfork ugh. Seitan banh mi actually ennui wayfarers mlkshk meh four loko. Swag deep v Brooklyn butcher craft beer, PBR mustache tattooed synth street art selvage YOLO. Kale chips wayfarers bespoke food truck. Pug chillwave Portland, ugh Schlitz gluten-free next level fixie photo booth selvage. Wayfarers organic post-ironic, gentrify single-origin coffee chillwave iPhone pop-up Truffaut dreamcatcher kale chips fingerstache craft beer Williamsburg try-hard.
-  </p>
-  <p>
-Leggings lo-fi kale chips Godard jean shorts, pug cardigan sartorial distillery PBR&B Kickstarter meggings heirloom Austin. Roof party PBR crucifix, mlkshk twee Thundercats vinyl tousled Brooklyn Banksy literally tattooed try-hard banjo. Biodiesel mlkshk fap small batch, McSweeney's sartorial craft beer ennui brunch. Drinking vinegar semiotics biodiesel 8-bit, Williamsburg scenester pug lomo Odd Future Thundercats hashtag Portland bitters Banksy asymmetrical. Try-hard PBR&B tote bag, gentrify YOLO wolf vinyl art party mlkshk. IPhone Blue Bottle flexitarian slow-carb small batch, seitan lo-fi pour-over before they sold out trust fund 3 wolf moon Tumblr Williamsburg polaroid street art.
-  </p>
+
+  <article>
+    <header>
+      <h1>Migrate a Single Database Migration</h1>
+      <p>Published: <time pubdate="pubdate">JAN 21ST, 2013</time></p>
+    </header>
+
+    <div class="article-body">
+    <ng-prism class="language-bash">rails console
+require "db/migrate/20121130134444_add_column_backorder_to_orders.rb"
+AddColumnBackorderToOrders.up</ng-prism>
+    </div>
+  </article>
+
+  <article>
+    <header>
+      <h1>Set-default-value-in-rails-model</h1>
+      <p>Published: <time pubdate="pubdate">2009-10-09</time></p>
+    </header>
+    <div class="article-body">
+      <p>I like to set default values in my models. This is the method I like to use.</p>
+<ng-prism class="line-numbers language-ruby">def after_initialize
+  if new_record?
+    self.upper_quantity ||= 0.0
+  end
+end</ng-prism>
+    </div>
+    <footer>
+      <p><small>Creative Commons Attribution-ShareAlike License</small></p>
+    </footer>
+  </article>
+
+  <article>
+    <header>
+      <h1>Apple</h1>
+      <p>Published: <time pubdate="pubdate">2009-10-09</time></p>
+    </header>
+
+    <div class="article-body">
+      <p>
+    Aesthetic hoodie plaid, slow-carb keytar irony Odd Future before they sold out deep v Echo Park umami typewriter shabby chic Tonx fashion axe. Kale chips aesthetic seitan tattooed pickled paleo, Pitchfork ugh. Seitan banh mi actually ennui wayfarers mlkshk meh four loko. Swag deep v Brooklyn butcher craft beer, PBR mustache tattooed synth street art selvage YOLO. Kale chips wayfarers bespoke food truck. Pug chillwave Portland, ugh Schlitz gluten-free next level fixie photo booth selvage. Wayfarers organic post-ironic, gentrify single-origin coffee chillwave iPhone pop-up Truffaut dreamcatcher kale chips fingerstache craft beer Williamsburg try-hard.
+      </p>
+    </div>
+    <footer>
+      <p><small>Creative Commons Attribution-ShareAlike License</small></p>
+    </footer>
+  </article>
+
+
 </div>
 
