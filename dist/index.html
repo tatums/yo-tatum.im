@@ -1,10 +1,17 @@
-<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <link rel="stylesheet" href="styles/main.eac5b3f2.css">  <body class="container" ng-app="yoTatumimApp"> <!--[if lt IE 7]>
+<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <link rel="stylesheet" href="styles/main.ca6244a7.css"> <link rel="stylesheet" href="styles/prism.css">  <body class="container" ng-app="yoTatumimApp"> <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <script type="text/javasript">$(document).ready(function() {
+    <![endif]--> <header class="navigation"> <div class="navigation-wrapper"> <div class="logo"> <!--<img src="images/logo.76fc17d1.jpeg" alt="tatum.im" />--> <h1>tatum.im</h1> </div> <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a> <div class="nav"> <ul id="navigation-menu"> <li class="nav-link"><a ng-href="#">Home</a></li> <li class="nav-link"><a ng-href="#/about">About</a></li> </ul> </div> </div> </header> <section ng-view=""></section> <footer> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </footer> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');</script> <!--[if lt IE 9]>
+    <script src="scripts/oldieshim.a466b7b1.js"></script>
+    <![endif]--> <script src="scripts/vendor.fa00a363.js"></script> <script src="scripts/scripts.206c105c.js"></script> <script type="text/javasript">$(document).ready(function() {
           var menu = $('#navigation-menu');
           var menuToggle = $('#js-mobile-menu');
           var signUp = $('.sign-up');
-
           $(menuToggle).on('click', function(e) {
             e.preventDefault();
             menu.slideToggle(function(){
@@ -13,7 +20,6 @@
               }
             });
           });
-
           // underline under the active nav item
           $(".nav .nav-link").click(function() {
             $(".nav .nav-link").each(function() {
@@ -22,12 +28,4 @@
             $(this).addClass("active-nav-item");
             $(".nav .more").removeClass("active-nav-item");
           });
-        });</script> <header class="navigation"> <div class="navigation-wrapper"> <h1 class="logo">tatum.im<!--<a href="#"><img class="round" src="images/logo.76fc17d1.jpeg" alt="tatum.im" /></a>--></h1> <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a> <div class="nav"> <ul id="navigation-menu"> <li class="nav-link"><a ng-href="#">Home</a></li> <li class="nav-link"><a ng-href="#/about">About</a></li> </ul> </div> </div> </header> <section ng-view=""></section> <footer> <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p> </footer> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');</script> <!--[if lt IE 9]>
-    <script src="scripts/oldieshim.a466b7b1.js"></script>
-    <![endif]--> <script src="scripts/vendor.fa00a363.js"></script> <script src="scripts/scripts.da4b452e.js"></script>  
+        });</script>  
