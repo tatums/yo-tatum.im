@@ -5,7 +5,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="styles/main.461a1a49.css">
+    <link rel="stylesheet" href="styles/main.c9090bff.css">
   </head>
   <body class="container" ng-app="yoTatumimApp">
     <!--[if lt IE 7]>
@@ -14,16 +14,11 @@
 
 
 
-
-
-
-    <header class="navigation">
+    <header ng-controller="NavCtrl" class="navigation">
       <div class="navigation-wrapper">
         <div class="logo">
-          <!--<img src="images/logo.76fc17d1.jpeg" alt="tatum.im" />-->
           <h1>tatum.im</h1>
         </div>
-        <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
         <div class="nav">
           <ul id="navigation-menu">
             <li class="nav-link"><a ng-href="#">Home</a></li>
@@ -36,11 +31,8 @@
     <section ng-view=""></section>
 
 
-
-
-
     <footer>
-      <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      <p>tatum</p>
     </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -55,37 +47,15 @@
     </script>
 
     <!--[if lt IE 9]>
-    <script src="scripts/oldieshim.b6a502d8.js"></script>
+    <script src="scripts/oldieshim.a466b7b1.js"></script>
     <![endif]-->
 
-    <script src="scripts/vendor.68cf5696.js"></script>
+    <script src="scripts/vendor.fa00a363.js"></script>
 
-        <script src="scripts/scripts.1aa71902.js"></script>
+        <script src="scripts/scripts.95ca0bce.js"></script>
 
-        <script src="scripts/prism.7cfa6930.js"></script>
+        <script src="scripts/prism.c734305b.js"></script>
 
-    <script type="text/javasript">
-        $(document).ready(function() {
-          var menu = $('#navigation-menu');
-          var menuToggle = $('#js-mobile-menu');
-          var signUp = $('.sign-up');
-          $(menuToggle).on('click', function(e) {
-            e.preventDefault();
-            menu.slideToggle(function(){
-              if(menu.is(':hidden')) {
-                menu.removeAttr('style');
-              }
-            });
-          });
-          // underline under the active nav item
-          $(".nav .nav-link").click(function() {
-            $(".nav .nav-link").each(function() {
-              $(this).removeClass("active-nav-item");
-            });
-            $(this).addClass("active-nav-item");
-            $(".nav .more").removeClass("active-nav-item");
-          });
-        });
-    </script>
+
 </body>
 </html>
