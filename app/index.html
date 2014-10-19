@@ -14,16 +14,11 @@
 
 
 
-
-
-
-    <header class="navigation">
+    <header ng-controller="NavCtrl" class="navigation">
       <div class="navigation-wrapper">
         <div class="logo">
-          <!--<img src="images/logo.jpeg" alt="tatum.im" />-->
           <h1>tatum.im</h1>
         </div>
-        <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
         <div class="nav">
           <ul id="navigation-menu">
             <li class="nav-link"><a ng-href="#">Home</a></li>
@@ -36,11 +31,8 @@
     <section ng-view=""></section>
 
 
-
-
-
     <footer>
-      <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      <p>tatum</p>
     </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -75,6 +67,7 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/nav.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/directives/ng-prism.js"></script>
@@ -84,28 +77,6 @@
         <script src="scripts/prism.js"></script>
         <!-- endbuild -->
 
-    <script type="text/javasript">
-        $(document).ready(function() {
-          var menu = $('#navigation-menu');
-          var menuToggle = $('#js-mobile-menu');
-          var signUp = $('.sign-up');
-          $(menuToggle).on('click', function(e) {
-            e.preventDefault();
-            menu.slideToggle(function(){
-              if(menu.is(':hidden')) {
-                menu.removeAttr('style');
-              }
-            });
-          });
-          // underline under the active nav item
-          $(".nav .nav-link").click(function() {
-            $(".nav .nav-link").each(function() {
-              $(this).removeClass("active-nav-item");
-            });
-            $(this).addClass("active-nav-item");
-            $(".nav .more").removeClass("active-nav-item");
-          });
-        });
-    </script>
+
 </body>
 </html>

@@ -14,4 +14,7 @@ angular.module('yoTatumimApp')
       'AngularJS',
       'Karma'
     ];
+    $scope.toggleMenu = function(){
+      console.log('yo');
+    };
   });

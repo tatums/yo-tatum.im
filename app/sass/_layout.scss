@@ -3,3 +3,65 @@
 }
 
 
+
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+header ul li{
+  list-style: none;
+  display:inline;
+}
+section{
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+
+header.navigation{}
+header .navigation-wrapper{
+  overflow:auto;
+  padding: 1em 0;
+}
+header .logo{
+  float:left;
+  //padding: 0 0.5em;
+}
+header .nav{
+  float:right;
+  //display: inline-block;
+  //position: absolute;
+  //right: 0;
+  //bottom: 0;
+}
+header .nav li {
+  padding: 0 0.5em;
+}
+
+.logo{
+  color:white;
+  @include background(linear-gradient(red, red) left repeat);
+}
+
+body {
+  background-color: whitesmoke;
+  background: #f0f0f0 url(/images/bg-noise.gif) repeat -70% 0;
+}
+
+
+article{
+  background-color: white;
+  margin:1em 0;
+  padding: 1em;
+  border-bottom: 1px solid #e5e5e5;
+}
+article h1{
+  font-size:1.8em
+}
+article header{
+  border-bottom: 1px solid #e5e5e5;
+}
