@@ -4,7 +4,8 @@
   "dependencies": {
     "express": "^4.9.8",
     "gzippo": "^0.2.0",
-    "morgan": "^1.4.0"
+    "morgan": "^1.4.0",
+    "testium": "^1.10.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
